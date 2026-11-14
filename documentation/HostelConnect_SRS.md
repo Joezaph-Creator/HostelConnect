@@ -6,14 +6,12 @@ Project Name: HostelConnect
 
 Tagline: Connecting Students to Their Ideal Accommodation.
 
-Version: 1.0
-
 Project Type: Web-Based Application
 
 Target Universities: AAMUSTED, KNUST and KTU.
 
-1. Introduction
- - 1.1 Purpose
+1.0 Introduction
+1.1 Purpose
 The purpose of HostelConnect is to develop a web-based student hostel booking system that enables students to discover available hostels, check room availability and make reservations online.
 
 The system will also provide hostel owners with tools to manage their hostel information and bookings, while administrators oversee the platform.
@@ -50,7 +48,6 @@ Users will interact with the system through a web interface. The application wil
 
 2.0 Functional Requirements
 Functional requirements describe what the system must do.
-
 2.1 User Management
 - FR1: The system shall allow students to create accounts.
 - FR2: The system shall allow hostel owners to register.
