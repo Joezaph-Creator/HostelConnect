@@ -92,15 +92,17 @@ These describe the quality and performance expected of the system.
 3.5 Maintainability
 - The application shall use organised modules and reusable code.
 - The database shall use appropriate relationships and constraints.
+
 4. System Constraints
-1. The application will initially support AAMUSTED, KNUST and KTU.
-2. The application will use PHP and MySQL.
-3. Paystack Sandbox will be used for simulated payments.
-4. Internet access will be required for online access and external payment testing.
-5. The initial implementation will focus on private student hostels rather than official university accommodation allocation.
+- The application will initially support AAMUSTED, KNUST and KTU.
+- The application will use PHP and MySQL.
+- Paystack Sandbox will be used for simulated payments.
+- Internet access will be required for online access and external payment testing.
+- The initial implementation will focus on private student hostels rather than official university accommodation allocation.
+
 5. Assumptions
-1. Students and hostel owners will have access to internet-enabled devices.
-2. Hostel owners will provide accurate hostel and room information.
-3. Students will provide valid registration information.
-4. Paystack Sandbox will be available during payment testing.
-5. The initial system will contain hostel information for the three selected universities.
+- Students and hostel owners will have access to internet-enabled devices.
+- Hostel owners will provide accurate hostel and room information.
+- Students will provide valid registration information.
+- Paystack Sandbox will be available during payment testing.
+- The initial system will contain hostel information for the three selected universities.
