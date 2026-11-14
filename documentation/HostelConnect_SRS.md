@@ -46,19 +46,23 @@ HostelConnect will operate as a web-based application accessible through compute
 
 Users will interact with the system through a web interface. The application will communicate with a MySQL database to store and retrieve information. Paystack Sandbox will provide the external payment testing service.
 
+
 2. Functional Requirements
 Functional requirements describe what the system must do.
+
 2.1 User Management
 - FR1: The system shall allow students to create accounts.
 - FR2: The system shall allow hostel owners to register.
 - FR3: The system shall allow registered users to log in and log out.
 - FR4: The system shall provide role-based access for students, hostel owners and administrators.
 - FR5: The system shall allow users to manage their account information.
+
 2.2 Hostel Discovery
 - FR6: The system shall display available hostels.
 - FR7: The system shall allow students to search for hostels by name or location.
 - FR8: The system shall allow students to filter hostels by university.
 - FR9: The system shall display hostel details, including descriptions, prices, locations and available rooms.
+
 2.3 Room Booking
 - FR10: The system shall display available rooms in registered hostels.
 - FR11: The system shall allow students to select a room for booking.
@@ -66,6 +70,7 @@ Functional requirements describe what the system must do.
 - FR13: The system shall record booking information in the database.
 - FR14: The system shall allow students to view their booking status.
 - FR15: The system shall allow hostel owners to view and manage bookings.
+
 2.4 Payment and Booking Confirmation
 - FR16: The system shall allow students to initiate payment for a booking.
 - FR17: The system shall integrate with Paystack Sandbox for test transactions.
@@ -73,22 +78,26 @@ Functional requirements describe what the system must do.
 - FR19: The system shall display payment and booking confirmation information.
 - FR20: The system shall maintain payment transaction records.
 
+
 3. Non-Functional Requirements
 These describe the quality and performance expected of the system.
-
 3.1 Security
 - Passwords shall be securely hashed.
 - Users shall only access functions permitted by their roles.
 - Payment verification shall be performed securely.
+
 3.2 Usability
 - The system shall have a simple and user-friendly interface.
 - The application shall support mobile and desktop screens.
+
 3.3 Performance
 - The system shall retrieve hostel information efficiently.
 - The system shall process booking requests without unnecessary delays.
+
 3.4 Reliability
 - The system shall maintain accurate booking records.
 - The system shall prevent two students from successfully booking the same unavailable room for overlapping periods.
+
 3.5 Maintainability
 - The application shall use organised modules and reusable code.
 - The database shall use appropriate relationships and constraints.
