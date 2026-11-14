@@ -13,10 +13,11 @@ Project Type: Web-Based Application
 Target Universities: AAMUSTED, KNUST and KTU.
 
 1. Introduction
-1.1 Purpose
+ - 1.1 Purpose
 The purpose of HostelConnect is to develop a web-based student hostel booking system that enables students to discover available hostels, check room availability and make reservations online.
 
 The system will also provide hostel owners with tools to manage their hostel information and bookings, while administrators oversee the platform.
+
 1.2 Scope
 HostelConnect will provide a central platform connecting students with private hostel accommodation around selected universities in Ghana.
 
@@ -35,11 +36,11 @@ The system will use Paystack Sandbox for simulated payment transactions. It will
 1.3 Intended Users
 The system will have three main categories of users:
 
-Students: Register, log in, search for hostels, view hostel details, check room availability and make bookings.
+- Students: Register, log in, search for hostels, view hostel details, check room availability and make bookings.
 
-Hostel Owners: Register, manage hostel information, manage room availability and view bookings.
+- Hostel Owners: Register, manage hostel information, manage room availability and view bookings.
 
-Administrators: Manage platform users, oversee hostel listings and monitor system activities.
+- Administrators: Manage platform users, oversee hostel listings and monitor system activities.
 
 1.4 Overall System Description
 HostelConnect will operate as a web-based application accessible through computers, tablets and smartphones with internet access.
@@ -47,7 +48,7 @@ HostelConnect will operate as a web-based application accessible through compute
 Users will interact with the system through a web interface. The application will communicate with a MySQL database to store and retrieve information. Paystack Sandbox will provide the external payment testing service.
 
 
-2. Functional Requirements
+2.0 Functional Requirements
 Functional requirements describe what the system must do.
 
 2.1 User Management
@@ -79,7 +80,7 @@ Functional requirements describe what the system must do.
 - FR20: The system shall maintain payment transaction records.
 
 
-3. Non-Functional Requirements
+3.0 Non-Functional Requirements
 These describe the quality and performance expected of the system.
 3.1 Security
 - Passwords shall be securely hashed.
@@ -102,14 +103,14 @@ These describe the quality and performance expected of the system.
 - The application shall use organised modules and reusable code.
 - The database shall use appropriate relationships and constraints.
 
-4. System Constraints
+4.0 System Constraints
 - The application will initially support AAMUSTED, KNUST and KTU.
 - The application will use PHP and MySQL.
 - Paystack Sandbox will be used for simulated payments.
 - Internet access will be required for online access and external payment testing.
 - The initial implementation will focus on private student hostels rather than official university accommodation allocation.
 
-5. Assumptions
+5.0 Assumptions
 - Students and hostel owners will have access to internet-enabled devices.
 - Hostel owners will provide accurate hostel and room information.
 - Students will provide valid registration information.
