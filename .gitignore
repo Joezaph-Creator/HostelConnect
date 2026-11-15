@@ -25,3 +25,5 @@ desktop.ini
 
 # Database backups
 *.sql.bak
+
+/config/paystack.php
